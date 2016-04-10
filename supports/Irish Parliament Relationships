@@ -1,0 +1,2125 @@
+/// LABOUR /// 
+
+1.	MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Ann Phelan' AND b.Id = 'Carlow-Kilkenny'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+2.	MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Michael McNamara' AND b.Id = 'Clare'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+3.	MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Seán Sherlock' AND b.Id = 'Cork East '
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+4.	MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Kathleen Lynch' AND b.Id = 'Cork North-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+5.	MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Ciarán Lynch' AND b.Id = 'Cork South-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+6.	MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Michael McCarthy' AND b.Id = 'Cork South-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+
+7.	MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Aodhán O Ríordain' AND b.Id = ' Dublin Bay North'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+8.	MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Kevin Humphreys' AND b.Id = 'Dublin Bay South'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+9.	MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Joe Costello' AND b.Id = 'Dublin Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+10.	MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Joanna Tuffy' AND b.Id = 'Dublin Mid-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+11.	MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'John Lyons' AND b.Id = 'Dublin North-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+12.	MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Eric Byrne' AND b.Id = 'Dublin South-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+13.	MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Pamela Kearns' AND b.Id = 'Dublin South-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+14.	MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Joan Burton' AND b.Id = 'Dublin West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+15.	MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Lorraine Higgins' AND b.Id = 'Galway East'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+16.	MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Derek Nolan' AND b.Id = 'Galway West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+17.	MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Arthur Spring' AND b.Id = 'Kerry'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+18.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Emmet Stagg' AND b.Id = 'Kildare North'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+19.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' John Whelan' AND b.Id = 'Laois'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+20.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Jan O Sullivan' AND b.Id = 'Limerick City'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+21.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Kevin Humphreys' AND b.Id = 'Dublin Bay South'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+22.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Willie Penrose' AND b.Id = 'Longford - Westmeath'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+23.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Mary Moran' AND b.Id = 'Louth'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+24.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Dominic Hannigan' AND b.Id = 'Meath East'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+25.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' John Kelly' AND b.Id = 'Roscommon-Galway'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+27.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Susan O Keeffe' AND b.Id = 'Sligo-Leitrim'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+28.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Alan Kelly' AND b.Id = 'Tipperary'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+29.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Ciara Conway' AND b.Id = 'Waterford'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+30.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Brendan Howlin' AND b.Id = 'Wexford'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+31.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Anne Ferris' AND b.Id = 'Wicklow'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+
+
+
+/// AAA - PBP ///
+
+
+
+
+33.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Adrienne Wallace' AND b.Id = 'Carlow-Kilkenny'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+
+34.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Ciara Leonardi Roche' AND b.Id = 'Cork East '
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+32.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Conor Mac Liam' AND b.Id = 'Carlow-Kilkenny'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+35.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Mick Barry' AND b.Id = 'Cork North-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+36.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Fiona' AND b.Id = 'Cork South-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+37.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' John Lyons' AND b.Id = ' Dublin Bay North'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+38.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Terry Kelleher' AND b.Id = 'Dublin Fingal'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+
+39.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Paul Murphy' AND b.Id = 'Dublin South-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+40.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Ruth Coppinger' AND b.Id = 'Dublin West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+41.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Richard Boyd Barrett' AND b.Id = 'Dún Laoghaire'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+42.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Tommy Holohan' AND b.Id = 'Galway West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+43.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Brian Finucane' AND b.Id = 'Kerry'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+44.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Ashling Merriman' AND b.Id = 'Kildare North'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+45.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Cian Prendiville' AND b.Id = 'Limerick City'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+46.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Dominic Parker' AND b.Id = 'Dublin South-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+47.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Tom Moran' AND b.Id = 'Mayo'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+48.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Garrett Weldon' AND b.Id = 'Louth'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+49.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Eddie Conroy' AND b.Id = 'Roscommon-Galway'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+50.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Nigel Gallagher' AND b.Id = 'Sligo-Leitrim'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+51.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Una Dunphy' AND b.Id = 'Waterford'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+52.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Deirdre Wadding' AND b.Id = 'Wexford'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+53.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Anna Doyle' AND b.Id = 'Wicklow'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+54.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Sharon Briggs' AND b.Id = 'Wicklow'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+55.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Jim O Connell ' AND b.Id = 'Cork South-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+56.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Michael O Brien' AND b.Id = 'Dublin South-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Sandra Fay ' AND b.Id = 'Dublin South-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+
+
+
+/// FINE-GAEL///
+
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'John Paul Phelan' AND b.Id = 'Carlow-Kilkenny'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Pat Deering' AND b.Id = 'Carlow-Kilkenny'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'David Fitzgerald' AND b.Id = 'Carlow-Kilkenny'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Heather Humphreys' AND b.Id = 'Cavan-Monaghan'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Joe OReilly' AND b.Id = 'Cavan-Monaghan'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+63.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Joe Carey' AND b.Id = 'Clare'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Pat Breen' AND b.Id = 'Clare'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Mary Howard' AND b.Id = 'Clare'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'David Stanton' AND b.Id = 'Cork East '
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Noel McCarthy' AND b.Id = 'Cork East '
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Tom Barry' AND b.Id = 'Cork East '
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Dara Murphy' AND b.Id = 'Cork North-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Julie O Leary' AND b.Id = 'Cork North-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Michael Creed' AND b.Id = 'Cork North-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Áine Collins' AND b.Id = 'Cork North-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Simon Coveney' AND b.Id = 'Cork South-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Jerry Buttimer' AND b.Id = 'Cork South-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Jim Daly' AND b.Id = 'Cork South-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Noel Harrington' AND b.Id = 'Cork South-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Paddy Harte' AND b.Id = 'Donegal'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Richard Bruton' AND b.Id = ' Dublin Bay North'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Naoise O Muirí' AND b.Id = ' Dublin Bay North'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Stephanie Regan' AND b.Id = ' Dublin Bay North'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Eoghan Murphy' AND b.Id = 'Dublin Bay South'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Kate O Connell' AND b.Id = 'Dublin Bay South'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Paschal Donohoe' AND b.Id = 'Dublin Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Alan Farrell' AND b.Id = 'Dublin Fingal'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'James Reilly' AND b.Id = 'Dublin Fingal'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Frances Fitzgerald' AND b.Id = 'Dublin Mid-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Derek Keating' AND b.Id = 'Dublin Mid-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Noel Rock' AND b.Id = 'Dublin North-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Josepha Madigan' AND b.Id = ' Dublin Rathdown'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Alan Shatter' AND b.Id = ' Dublin Rathdown'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Catherine Byrne' AND b.Id = 'Dublin South-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Colm Brophy' AND b.Id = 'Dublin South-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Anne-Marie Dermody' AND b.Id = 'Dublin South-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Karen Warren' AND b.Id = 'Dublin South-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Leo Varadkar' AND b.Id = 'Dublin West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Catherine Noone' AND b.Id = 'Dublin West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Maria Bailey' AND b.Id = 'Dún Laoghaire'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Mary Mitchell-OConnor' AND b.Id = 'Dún Laoghaire'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Ciarán Cannon' AND b.Id = 'Galway East'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Paul Connaughton' AND b.Id = 'Galway East'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Hildegarde Naughton' AND b.Id = 'Galway West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Sean Kyne' AND b.Id = 'Galway West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'John OMahony' AND b.Id = 'Galway West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Brendan Griffin' AND b.Id = 'Kerry'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Grace O Donnell' AND b.Id = 'Kerry'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Jimmy Deenihan' AND b.Id = 'Kerry'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Bernard Durkan' AND b.Id = 'Kildare North'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Anthony Lawlor' AND b.Id = 'Kildare North'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Martin Heydon' AND b.Id = 'Kildare South'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Fiona McLoughlin Healy' AND b.Id = 'Kildare South'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Charlie Flanagan' AND b.Id = 'Laois'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Thomasina Connell' AND b.Id = 'Laois'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Michael Noonan' AND b.Id = 'Limerick City'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Kieran O Donnell' AND b.Id = 'Limerick City'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Patrick ODonovan' AND b.Id = 'Dublin South-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Tom Neville' AND b.Id = 'Limerick County'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Peter Burke' AND b.Id = 'Longford - Westmeath'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Gabrielle McFadden' AND b.Id = 'Longford - Westmeath'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'James Bannon' AND b.Id = 'Longford - Westmeath'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Fergus O Dowd' AND b.Id = 'Louth'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Peter Fitzpatrick' AND b.Id = 'Louth'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Enda Kenny' AND b.Id = 'Mayo'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Michael Ring' AND b.Id = 'Mayo'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Michelle Mulherin' AND b.Id = 'Mayo'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Helen McEntee' AND b.Id = 'Meath East'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Regina Doherty' AND b.Id = 'Meath East'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Ray Butler' AND b.Id = 'Meath West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Damien English' AND b.Id = 'Meath West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Marcella Corcoran-Kennedy' AND b.Id = 'Offaly'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Maura Hopkins' AND b.Id = 'Roscommon-Galway'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Tony McLoughlin' AND b.Id = 'Sligo-Leitrim'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Gerry Reynolds' AND b.Id = 'Sligo-Leitrim'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'John Perry' AND b.Id = 'Sligo-Leitrim'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Marie Murphy' AND b.Id = 'Tipperary'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Noel Coonan' AND b.Id = 'Tipperary'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Tom Hayes' AND b.Id = 'Tipperary'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'John Deasy' AND b.Id = 'Waterford'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Paudie Coffey' AND b.Id = 'Waterford'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Michael Darcy' AND b.Id = 'Wexford'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Paul Kehoe' AND b.Id = 'Wexford'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Julie Hogan' AND b.Id = 'Wexford'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Andrew Doyle' AND b.Id = 'Wicklow'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Simon Harris' AND b.Id = 'Wicklow'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Avril Cronin' AND b.Id = 'Wicklow'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+
+
+
+/// SINN-FÉIN ///
+
+
+
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Kathleen Funchion' AND b.Id = 'Carlow-Kilkenny'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Caoimhghín O Caoláin' AND b.Id = 'Cavan-Monaghan'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Kathryn Reilly' AND b.Id = 'Cavan-Monaghan'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Noeleen Moran' AND b.Id = 'Clare'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Pat Buckley' AND b.Id = 'Cork East '
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Johnathan O'Brien' AND b.Id = 'Cork North-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Thomas Gould' AND b.Id = 'Cork North-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Nigel Dennehy' AND b.Id = 'Cork North-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Donnchadh O Laoghaire' AND b.Id = 'Cork South-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Rachel McCarthy' AND b.Id = 'Cork South-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Pearse Doherty' AND b.Id = 'Donegal'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Gary Doherty' AND b.Id = 'Donegal'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Padraig Mac Lochlainn' AND b.Id = 'Donegal'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Denise Mitchell' AND b.Id = ' Dublin Bay North'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Michael McDonagh' AND b.Id = ' Dublin Bay North'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Chris Andrews' AND b.Id = 'Dublin Bay South'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Mary Lou McDonald' AND b.Id = 'Dublin Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Louise O Reilly' AND b.Id = 'Dublin Fingal'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Eoin O Broin' AND b.Id = 'Dublin Mid-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Dessie Ellis' AND b.Id = 'Dublin North-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Cathleen Carney Boud' AND b.Id = 'Dublin North-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Sorcha Nic Cormaic' AND b.Id = ' Dublin Rathdown'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Aengus O Snodaigh' AND b.Id = 'Dublin South-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Máire Devine' AND b.Id = 'Dublin South-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Sean Crowe' AND b.Id = 'Dublin South-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Sarah Holland' AND b.Id = 'Dublin South-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Paul Donnelly' AND b.Id = 'Dublin West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Shane O’Brien' AND b.Id = 'Dún Laoghaire'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Annemarie Roche' AND b.Id = 'Galway East'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Trevor O Clochartaigh' AND b.Id = 'Galway West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Martin Ferris' AND b.Id = 'Kerry'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Réada Cronin' AND b.Id = 'Kildare North'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Patricia Ryan' AND b.Id = 'Kildare South'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Brian Stanley' AND b.Id = 'Laois'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Maurice Quinlivan' AND b.Id = 'Limerick City'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Seamus Browne' AND b.Id = 'Limerick County'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Paul Hogan' AND b.Id = 'Longford - Westmeath'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Gerry Adams' AND b.Id = 'Louth'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Imelda Munster' AND b.Id = 'Louth'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Rose Conway-Walsh' AND b.Id = 'Mayo'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Darren O’Rourke' AND b.Id = 'Meath East'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Peadar Tóibín' AND b.Id = 'Meath West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Carol Nolan' AND b.Id = 'Offaly'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Claire Kerrane' AND b.Id = 'Roscommon-Galway'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Martin Kenny' AND b.Id = 'Sligo-Leitrim'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Chris MacManus' AND b.Id = 'Sligo-Leitrim'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Seamus Morris' AND b.Id = 'Tipperary'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'David Cullinane' AND b.Id = 'Waterford'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Johnny Mythen' AND b.Id = 'Wexford'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+57.MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'John Brady' AND b.Id = 'Wicklow'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+
+
+/// Fianna Fáil ///
+
+
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Bobby Aylward' AND b.Id = 'Carlow-Kilkenny'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'John McGuinness' AND b.Id = 'Carlow-Kilkenny'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Jennifer Murnane O Connor' AND b.Id = 'Carlow-Kilkenny'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Brendan Smith' AND b.Id = 'Cavan-Monaghan'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Niamh Smyth' AND b.Id = 'Cavan-Monaghan'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Mike Durkan' AND b.Id = 'Cavan-Monaghan'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Timmy Dooley' AND b.Id = 'Clare'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Clare Colleran Molloy' AND b.Id = 'Clare'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Michael McDonagh' AND b.Id = 'Clare'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Kevin O Keefe' AND b.Id = 'Cork East '
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Barbara Ahern' AND b.Id = 'Cork East '
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Billy Kelleher' AND b.Id = 'Cork North-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Aindrias Moynihan' AND b.Id = 'Cork North-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Michael Moynihan' AND b.Id = 'Cork North-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Michael McGrath' AND b.Id = 'Cork South-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Margaret Murphy-OMahony' AND b.Id = 'Cork South-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Charlie McConalogue' AND b.Id = 'Donegal'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Pat -The Cope- Gallagher' AND b.Id = 'Donegal'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Seán Haughey' AND b.Id = ' Dublin Bay North'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Deirdre Heney' AND b.Id = ' Dublin Bay North'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Jim OCallaghan' AND b.Id = ' Dublin Bay South'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Mary Fitzpatrick' AND b.Id = 'Dublin Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Darragh OBrien' AND b.Id = 'Dublin Fingal'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Lorraine Clifford-Lee' AND b.Id = 'Dublin Fingal'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'John Curran' AND b.Id = 'Dublin Mid-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Paul McAuliffe' AND b.Id = 'Dublin North-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Mary White' AND b.Id = ' Dublin Rathdown'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Catherine Ardagh' AND b.Id = 'Dublin South-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'John Lahart' AND b.Id = 'Dublin South-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Jack Chambers' AND b.Id = 'Dublin West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Cormac Devlin' AND b.Id = 'Dún Laoghaire'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Mary Hanafin' AND b.Id = 'Dún Laoghaire'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Anne Rabbitte' AND b.Id = 'Galway East'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Éamon O Cuív' AND b.Id = 'Galway West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Mary Hoade' AND b.Id = 'Galway East'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'John Brassil' AND b.Id = 'Kerry'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Norma Moriarty' AND b.Id = 'Kerry'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'James Lawless' AND b.Id = 'Kildare North'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Fiona OLoughlin' AND b.Id = 'Kildare South'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Seán O Fearghaíl' AND b.Id = 'Kildare South'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Seán Fleming' AND b.Id = 'Laois'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Willie ODea' AND b.Id = 'Limerick City'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Robert Troy' AND b.Id = 'Longford - Westmeath'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Connie Gerety-Quinn' AND b.Id = 'Longford - Westmeath'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Declan Breathnach' AND b.Id = 'Louth'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Emma Coffey' AND b.Id = 'Louth'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Dara Calleary' AND b.Id = 'Mayo'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Lisa Chambers' AND b.Id = 'Mayo'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Thomas Byrne' AND b.Id = 'Meath East'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Shane Cassells' AND b.Id = 'Meath West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Barry Cowen' AND b.Id = 'Offaly'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Eddie Fitzpatrick' AND b.Id = 'Offaly'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Eugene Murphy' AND b.Id = 'Roscommon-Galway'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Shane Curran' AND b.Id = 'Roscommon-Galway'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Eamon Scanlon' AND b.Id = 'Sligo-Leitrim'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Marc MacSharry' AND b.Id = 'Sligo-Leitrim'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Paddy ORourke' AND b.Id = 'Sligo-Leitrim'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Jackie Cahill' AND b.Id = 'Tipperary'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Michael Smith' AND b.Id = 'Tipperary'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Siobhán Ambrose' AND b.Id = 'Tipperary'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Mary Butler' AND b.Id = 'Waterford'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'James Browne' AND b.Id = 'Wexford'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Aoife Byrne' AND b.Id = 'Wexford'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Malcolm Byrne' AND b.Id = 'Wexford'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Pat Casey' AND b.Id = 'Wicklow'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Jennifer Cuffe' AND b.Id = 'Wicklow'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+
+/// INDEPENDENT
+
+
+
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Keith Gilligan' AND b.Id = 'Carlow-Kilkenny'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Noel Walsh' AND b.Id = 'Carlow-Kilkenny'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Paddy J Maning' AND b.Id = 'Carlow-Kilkenny'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Emmet Smith' AND b.Id = 'Cavan-Monaghan'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Jimmy Mee' AND b.Id = 'Cavan-Monaghan'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'John Wilson' AND b.Id = 'Cavan-Monaghan'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Mary Smyth' AND b.Id = 'Cavan-Monaghan'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Sean Conlan' AND b.Id = 'Cavan-Monaghan'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Michael Harty' AND b.Id = 'Clare'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'André Sibo Hakizimmana' AND b.Id = 'Clare'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Ann Norton' AND b.Id = 'Clare'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Dermot Mulqueen' AND b.Id = 'Clare'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Ian Lynch' AND b.Id = 'Clare'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Richard Cahill' AND b.Id = 'Clare'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Keiran McCarthy' AND b.Id = 'Cork East '
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Mary Linehan-Foley' AND b.Id = 'Cork East '
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Paddy Bullman' AND b.Id = 'Cork East '
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Ross Cannon' AND b.Id = 'Cork East '
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Ger Keohane' AND b.Id = 'Cork North-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Mick Murphy' AND b.Id = 'Cork North-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Peter O’Loughlin' AND b.Id = 'Cork North-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Thomas Kiely' AND b.Id = 'Cork North-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Diarmuid O Flynn' AND b.Id = 'Cork North-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Jerry O Sullivan' AND b.Id = 'Cork North-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'John Paul O Shea' AND b.Id = 'Cork North-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Shirley Griffin' AND b.Id = 'Cork North-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Steven O’Riordan' AND b.Id = 'Cork North-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Diarmuid O Cadhla' AND b.Id = 'Cork South-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Elizabeth Hourihane' AND b.Id = 'Cork South-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Joe Harris' AND b.Id = 'Cork South-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Michael Mohally' AND b.Id = 'Cork South-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Mick Finn' AND b.Id = 'Cork South-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Michael Collins' AND b.Id = 'Cork South-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Alan Coleman' AND b.Id = 'Cork South-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Fiona O’Leary' AND b.Id = 'Cork South-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Gillian Powell' AND b.Id = 'Cork South-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Thomas Pringle' AND b.Id = 'Donegal'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Dessie Shiels' AND b.Id = 'Donegal'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Frank McBrearty' AND b.Id = 'Donegal'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Ian McGarvey' AND b.Id = 'Donegal'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Michael Mooney' AND b.Id = 'Donegal'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Niamh Kennedy' AND b.Id = 'Donegal'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Tim Jackson' AND b.Id = 'Donegal'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Finian McGrath' AND b.Id = ' Dublin Bay North'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Averail Power' AND b.Id = ' Dublin Bay North'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Jimmy Guerin' AND b.Id = ' Dublin Bay North'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Paul Clarke' AND b.Id = ' Dublin Bay North'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Proinsias O Conaráin' AND b.Id = ' Dublin Bay North'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Alan Mac Stiofain' AND b.Id = 'Dublin Bay South'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Eoin Tierney' AND b.Id = 'Dublin Bay South'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'John Dominic Keigher' AND b.Id = 'Dublin Bay South'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Mannix Flynn' AND b.Id = 'Dublin Bay South'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'William D.J. Gorman' AND b.Id = 'Dublin Bay South'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Maureen O’Sullivan' AND b.Id = 'Dublin Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Christy Burke' AND b.Id = 'Dublin Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Cieran Perry' AND b.Id = 'Dublin Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Kerry Guinan' AND b.Id = 'Dublin Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'William D.J. Gorman' AND b.Id = 'Dublin Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Fergal O’Connell' AND b.Id = 'Dublin Fingal'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Marcus De Brun' AND b.Id = 'Dublin Fingal'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Roslyn Fuller' AND b.Id = 'Dublin Fingal'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Tony Murphy' AND b.Id = 'Dublin Fingal'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Clare Leonard' AND b.Id = 'Dublin Mid-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Francis Timmons' AND b.Id = 'Dublin Mid-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Haroon Khan' AND b.Id = 'Dublin Mid-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Patrick Akpoveta' AND b.Id = 'Dublin Mid-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Paul Gogarty' AND b.Id = 'Dublin Mid-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Bernie Hughes' AND b.Id = 'Dublin North-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Shane Ross' AND b.Id = ' Dublin Rathdown'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Peter Matthews' AND b.Id = ' Dublin Rathdown'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Paul Hand' AND b.Id = 'Dublin South-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Richard Murray' AND b.Id = 'Dublin South-Central'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Katherine Zappone' AND b.Id = 'Dublin South-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Declan Burke' AND b.Id = 'Dublin South-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Deirdre O’Donovan' AND b.Id = 'Dublin South-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Éamonn Maloney' AND b.Id = 'Dublin South-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Frank O Gorman' AND b.Id = 'Dublin South-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Joan Summerwille-Molloy' AND b.Id = 'Dublin South-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Kieran-Adam Quigley' AND b.Id = 'Dublin South-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Peter Fitzpatrick' AND b.Id = 'Dublin South-West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'David McGuiness' AND b.Id = 'Dublin West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Dermot Casey' AND b.Id = 'Dublin West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'TJ Clare' AND b.Id = 'Dublin West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Carol Hunt' AND b.Id = 'Dún Laoghaire'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = ' Seán Canney' AND b.Id = 'Galway East'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Michael Fahy' AND b.Id = 'Galway East'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Catherine Connolly' AND b.Id = 'Galway West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Noel Grealish' AND b.Id = 'Galway West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Fidelma Healy Eames' AND b.Id = 'Galway West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'James Charity' AND b.Id = 'Galway West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Mike Cubbard' AND b.Id = 'Galway West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Patrick Feeney' AND b.Id = 'Galway West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Tommy Roddy' AND b.Id = 'Galway West'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Danny Healy-Rae' AND b.Id = 'Kerry'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Michael Healy-Rae' AND b.Id = 'Kerry'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Henry Gaynor' AND b.Id = 'Kerry'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Kevin Murphy' AND b.Id = 'Kerry'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Mary Fitzgibbon' AND b.Id = 'Kerry'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Michael O’Gorman' AND b.Id = 'Kerry'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Brendan Young' AND b.Id = 'Kildare North'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Elizabeth O’Sullivan' AND b.Id = 'Kildare North'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Gerard Dunne' AND b.Id = 'Kildare North'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Michael Beirne' AND b.Id = 'Kildare North'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Declan Crowe' AND b.Id = 'Kildare South'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Denis Riordan' AND b.Id = 'Limerick City'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Desmond Hayes' AND b.Id = 'Limerick City'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Emmett O’Brien' AND b.Id = 'Limerick County'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'John O’Gorman' AND b.Id = 'Limerick County'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Richard O’Donoghue' AND b.Id = 'Limerick County'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Kevin ‘Boxer’ Moran' AND b.Id = 'Longford - Westmeath'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Barbara Smyth' AND b.Id = 'Longford - Westmeath'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Brian Fagan' AND b.Id = 'Longford - Westmeath'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Donal Jackson' AND b.Id = 'Longford - Westmeath'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'James Miller' AND b.Id = 'Longford - Westmeath'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'James Morgan' AND b.Id = 'Longford - Westmeath'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Mae Genderton' AND b.Id = 'Longford - Westmeath'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'David Bradley' AND b.Id = 'Louth'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Kevin Callan' AND b.Id = 'Louth'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Maeve Yore' AND b.Id = 'Louth'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'George O’Malley' AND b.Id = 'Mayo'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Gerry O’Boyle' AND b.Id = 'Mayo'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Jerry Cowley' AND b.Id = 'Mayo'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Mohammad Kamal Uddin' AND b.Id = 'Mayo'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Peter Jordan' AND b.Id = 'Mayo'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Sean Forkan' AND b.Id = 'Mayo'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Stephan Manning' AND b.Id = 'Mayo'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Joe Bonner' AND b.Id = 'Meath East'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Sharon Keogan' AND b.Id = 'Meath East'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'John Malone' AND b.Id = 'Meath East'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Trevor Golden' AND b.Id = 'Meath East'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Joe Hannigan' AND b.Id = 'Offaly'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'John Foley' AND b.Id = 'Offaly'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Kate Bopp' AND b.Id = 'Offaly'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Teresa Ryan-Feehan' AND b.Id = 'Offaly'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Denis Naughten' AND b.Id = 'Roscommon-Galway'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Michael Fitzmaurice' AND b.Id = 'Roscommon-Galway'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Thomas Declan Fallon' AND b.Id = 'Roscommon-Galway'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Tony Coleman' AND b.Id = 'Roscommon-Galway'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Bernard Sweeney' AND b.Id = 'Sligo-Leitrim'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Bernie O’Hara' AND b.Id = 'Sligo-Leitrim'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Declan Bree' AND b.Id = 'Sligo-Leitrim'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Des Guckian' AND b.Id = 'Sligo-Leitrim'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Eamon Murray' AND b.Id = 'Sligo-Leitrim'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Marie Casserly' AND b.Id = 'Sligo-Leitrim'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Mattie McGrath' AND b.Id = 'Tipperary'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Michael Lowry' AND b.Id = 'Tipperary'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Michael Dillon' AND b.Id = 'Tipperary'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'John Halligan' AND b.Id = 'Waterford'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'John Walsh' AND b.Id = 'Waterford'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Sheikh M.Ahmed' AND b.Id = 'Waterford'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Caroline Foxe' AND b.Id = 'Wexford'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Emmet Moloney' AND b.Id = 'Wexford'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Ger Carthy' AND b.Id = 'Wexford'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'John Dwyer' AND b.Id = 'Wexford'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Bob Kearns' AND b.Id = 'Wicklow'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Charlie Keddy' AND b.Id = 'Wicklow'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r
+
+MATCH (a:Candidate),(b:Constituency)
+WHERE a.Name = 'Joe Behan' AND b.Id = 'Wicklow'
+CREATE (a)-[r:ASSOCIATION]->(b)
+RETURN r

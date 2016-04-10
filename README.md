@@ -4,7 +4,7 @@
 The aim of my project is to obtain data about the Irish Constituencies and convert that data into a Database using Neo4J. This allows for the data to be much more easily understandable and for specific data to be quickly sorted. We also need to create three interesting queries after creating the database.
 
 ## Database
-Using Excel, I copied the data on the constituencies on the Wikipedia page into an excel sheet. From there I used the formula from the video on importing on importing excel sheets into Neo4J and used it to take multiple columns of data and combine it into one usable line for Neo4J. I did this for each constituency and after fixing up certain parts of the data created, I copied and pasted it into the console for Neo4J and created the nodes(bubbles). Using a similar formula, I changed the formula to allow for the addition of candidates. I did this using:
+Using Excel, I copied the data on the constituencies on the Wikipedia page into an excel sheet. From there I used the formula from the video on importing excel sheets into Neo4J and used it to take multiple columns of data and combine it into one usable line for Neo4J. I did this for each constituency and after fixing up certain parts of the data created, I copied and pasted it into the console for Neo4J and created the nodes(bubbles). Using a similar formula, I changed the formula to allow for the addition of candidates. I did this using:
 
 create(n1:Candidate{Id: '1', Name:'' ,Sex: '', Party: '',  Constituency: '', Age: '', Occupation: '', Biography:''}),
 
@@ -19,11 +19,11 @@ I was able to create relationships between all of the candidates with all the co
 
 After everything was linked up with each other and mistakes corrected, I moved onto the queries...
 
-## Queries
+#### Queries
 Summarise your three queries here.
 Then explain them one by one in the following sections.
 
-#### Query to find young TD's who are tryin to get elected
+#### Query to find young TD's who are trying to get elected
 
 match(n:Candidate{Occupation: 'TD'}) WHERE n.Age < '30' return n
 
@@ -42,7 +42,7 @@ match n
 Where n.Gender = 'Female'  return n
 Order By n.Age
 
-For the most part, men make up most of the election candidates. I wanted to see how many of the candidates were woman. To my surprise they only made up a little more than a quarter of the candidates. I also sorted them by age so that I can see how old the oldest person(Mary White[71]) is and how old the younger person is(Ciara Leonardi Roche[22]). Using 
+For the most part, men make up most of the election candidates. I wanted to see how many of the candidates were woman. To my surprise they only made up a little more than a quarter of the candidates. I also sorted them by age so that I can see how old the oldest person( Mary White[71]) is and how old the younger person is( Ciara Leonardi Roche[22]). Using 
 (match n 
 Where n.Age = 'N/A' and n.Gender = 'Female' 
 return n Order By n.Name), we can see many woman(24) decide to not disclose their age.
